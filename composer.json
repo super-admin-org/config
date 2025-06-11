@@ -1,0 +1,35 @@
+{
+    "name": "super-admin-ext/config",
+    "description": "Config extension for super-admin, thanks to z-song",
+    "type": "library",
+    "keywords": ["super-admin", "setting"],
+    "homepage": "https://github.com/super-admin-ext/config",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "super-admin",
+            "email": "infog@super-admin.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": ">=7.0",
+        "super-admin-org/super-admin": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "laravel/laravel": "~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SuperAdmin\\Admin\\Config\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SuperAdmin\\Admin\\Config\\ConfigServiceProvider"
+            ]
+        }
+    }
+}
