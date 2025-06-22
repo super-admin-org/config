@@ -17,8 +17,8 @@
         "super-admin-org/super-admin": "^1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.0",
-        "laravel/laravel": "~7.0"
+        "phpunit/phpunit": ">=6.0",
+        "laravel/laravel": ">=7.0"
     },
     "autoload": {
         "psr-4": {
