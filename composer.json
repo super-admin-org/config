@@ -1,9 +1,9 @@
 {
-    "name": "super-admin-ext/config",
+    "name": "super-admin-org/config",
     "description": "Config extension for super-admin, thanks to z-song",
     "type": "library",
     "keywords": ["super-admin", "setting"],
-    "homepage": "https://github.com/super-admin-ext/config",
+    "homepage": "https://github.com/super-admin-org/config",
     "license": "MIT",
     "authors": [
         {

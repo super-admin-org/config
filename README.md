@@ -2,8 +2,8 @@ Config manager for super-admin
 ========================
 
 [![StyleCI](https://styleci.io/repos/387844084/shield?branch=main)](https://styleci.io/repos/387844084)
-[![Packagist](https://img.shields.io/github/license/super-admin-org/config?style=flat-square&color=brightgreen)](https://packagist.org/packages/super-admin-ext/config)
-[![Total Downloads](https://img.shields.io/packagist/dt/super-admin-ext/config?style=flat-square)](https://packagist.org/packages/super-admin-ext/config)
+[![Packagist](https://img.shields.io/github/license/super-admin-org/config?style=flat-square&color=brightgreen)](https://packagist.org/packages/super-admin-org/config)
+[![Total Downloads](https://img.shields.io/packagist/dt/super-admin-org/config?style=flat-square)](https://packagist.org/packages/super-admin-org/config)
 [![Pull request welcome](https://img.shields.io/badge/pr-welcome-green?style=flat-square&color=brightgreen)]()
 
 
@@ -16,7 +16,7 @@ Config manager for super-admin
 ## Installation
 
 ```
-$ composer require super-admin-ext/config
+$ composer require super-admin-org/config
 
 $ php artisan migrate
 ```
