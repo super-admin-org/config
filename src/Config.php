@@ -8,6 +8,13 @@ use SuperAdmin\Admin\Extension;
 class Config extends Extension
 {
     /**
+     * Migrations run by `php artisan migrate`; super-admin also lists pending ones in `admin:upgrade`.
+     *
+     * @var string
+     */
+    public $migrations = __DIR__.'/../database/migrations';
+
+    /**
      * Load configure into laravel from database.
      *
      * @return void
