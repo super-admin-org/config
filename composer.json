@@ -3,7 +3,12 @@
     "description": "Config extension for super-admin, thanks to z-song",
     "type": "library",
     "keywords": ["super-admin", "setting"],
-    "homepage": "https://github.com/super-admin-org/config",
+    "homepage": "https://super-admin.org/laravel/extension-config/",
+    "support": {
+        "docs": "https://super-admin.org/laravel/extension-config/",
+        "issues": "https://github.com/super-admin-org/config/issues",
+        "source": "https://github.com/super-admin-org/config"
+    },
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +19,7 @@
     "require": {
         "php": ">=7.1",
         "laravel/framework": ">=7.0",
-        "super-admin-org/super-admin": "^1.0"
+        "super-admin-org/super-admin": "^1.0|^2.0"
     },
     "require-dev": {
         "phpunit/phpunit": ">=6.0",
